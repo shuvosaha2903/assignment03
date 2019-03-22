@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+body{
+	font-family: 'Oswald', sans-serif;
+	padding: 0;
+	margin: 0 auto;
+	font-size: 17px;
+	width: 1000px;}
+img{
+	max-width: 100%;
+	display:block;
+}
+*{box-sizing: border-box;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;}
+.container{
+    background: #ffffff;
+}
+header{
+    overflow: hidden;
+    padding: 15px 0px;
+}
+.logo{
+    float: left;
+}
+.logo a{
+}
+.logo img{}
+
+nav{
+    width: 80%;
+    float: right;
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+}
+nav ul li{list-style-type: none;display: inline-block;float: right;}
+nav ul li a{text-decoration: none;color: #111111;font-size: 16px;padding-left: 40px;text-transform: uppercase;}
+nav ul li a:hover{}
+
+.banner{width: 100%;float: left;}
+.banner img{max-width: 100%;}
+
+.content {
+    width: 100%;
+    padding: 40px 50px;
+    box-sizing: border-box;
+    float: left;
+    }
+.content span{color: gray;}
+.content h2{color: #4e4e4e;}
+.content p{
+    color: gray;
+    text-align: justify;
+}
+.content a{
+    color: #afafaf;
+    text-decoration: none;
+}
+
+.blog{width: 50%;float: left;padding: 30px 50px;box-sizing: border-box;}
+.blog img{}
+.blog span{
+    color: gray;
+}
+.blog h2{
+    color: #4e4e4e;
+}
+.blog p{color: gray;}
+
+footer{}
+
+.copyright{
+    text-align: center;
+}
+.copyright p{color: gray;}
+.copyright p a{
+    color: #4a4a4a;
+    text-decoration: none;
+    text-transform: uppercase;
+}
